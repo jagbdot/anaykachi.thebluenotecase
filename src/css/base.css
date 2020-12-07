@@ -464,7 +464,7 @@ em {
 		margin: 0 auto;
 		letter-spacing: 0.1px;
 		line-height: 2rem;
-		padding: 5.5rem 0;
+		padding: 5.5rem 0 0;
 	  }
 
 
@@ -491,6 +491,17 @@ em {
 	    padding-top: 50px;
 	}
 
+
+	.double-link{
+		margin: 0 auto;
+		width: 70%;
+		padding: 3.5rem 0 1.2rem;
+		display: grid;
+		grid-column-gap: 40px;
+		grid-template-areas: 'link desc';
+		line-height: 24px;
+	}
+
 	.content__item-credits {
 		align-self: flex-end;
 		min-width: 196px;
@@ -498,11 +509,12 @@ em {
 		padding: 0;
 	}
 
-	.content-title{
+	h2.content-title{
 		text-align: center;
 	    text-transform: uppercase;
 	    padding-top: 6.5rem;
 	    max-width: 55%;
+	    line-height: 52px;
 	    font-size: 40px;
 	    margin: 0 auto;
 	    letter-spacing: 1px;
@@ -510,18 +522,46 @@ em {
 	    font-weight: 300;
 	}
 
+	h3.content-title{
+		text-align: center;
+	    text-transform: uppercase;
+	    padding-bottom: 6.5rem;
+	    max-width: 55%;
+	    font-size: 38px;
+	    margin: 0 auto;
+	    letter-spacing: 1px;
+	    font-family: 'freight-big-pro';
+	    font-weight: 300;
+	    color: white;
+	}
+
 	.content-description{
 		margin: 0 auto;
 		width: 80%;
     	padding: 3.5rem 0 6.5rem;
     	column-count: 2;
-    	column-gap: 20px;
    		-moz-columns: 2;
-   		line-height: 1.4rem;
     	-webkit-columns: 2;
+    	column-gap: 20px;
+    	line-height: 1.4rem;
+	}
+
+	span.link{
+		grid-column: link;
+		text-align: right;
+	}
+
+	span.desc{
+		grid-column: desc;
+		text-align: left
 	}
 
 	.content-img{
+		width: 100%;
+    	float: left;
+	}
+
+	.content-img-small{
 		width: 100%;
     	float: left;
 	}
@@ -533,11 +573,37 @@ em {
 	    left: -10vw;
 	}
 
+	.client-frame-3{
+		margin: 0 auto;
+    	margin-top: 3.5rem;
+    	width: 50vw;
+		column-count: 3;
+   		-moz-columns: 3;
+    	-webkit-columns: 3;
+    	column-gap: 25px;
+	}
+
+	.client-img{
+		border-radius: 100%;
+	    width: 180px;
+	    height: 180px;
+	    overflow: hidden;
+	    margin: 0 auto;
+	}
+
+	.client-img img{
+		width: 100%;
+	}
+
 }
 
 @media screen and (max-width: 53em) {
 
 	img{
+		width: 100%;
+	}
+
+	video{
 		width: 100%;
 	}
 
@@ -566,6 +632,34 @@ em {
 
 	.content__paragraph {
 	    bottom: 0%;
+	    font-size: 9.1vw;
+	}
+
+	.content__figure {
+    	margin-top: 1rem;
+	}
+
+	.content__figure-caption {
+	    margin: 1rem 0 0 0;
+	    font-size: 1.35rem;
+	    line-height: 28px;
+	    padding-bottom: 1rem;
+	}
+
+	.related-links{
+		text-align: center;
+    	font-size: 2rem;
+	}
+
+	.content-title {
+	    margin-top: 2.5rem;
+	    text-transform: uppercase;
+	    line-height: 30px;
+	    font-family: 'freight-big-pro';
+	}
+
+	.content-description {
+	    margin-bottom: 25px;
 	}
 
 }
