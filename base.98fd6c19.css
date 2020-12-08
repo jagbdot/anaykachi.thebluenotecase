@@ -609,11 +609,11 @@ em {
 	}
 
 	.frame {
-	    padding: 2rem 3rem;
+	    padding: 0.5rem 3rem 2rem;
 	}
 
 	.context{
-	margin: 220px 0 30px;
+	margin: 220px 0 20px;
 	line-height: 32px;
     font-size: 17px;
     text-transform: uppercase;
@@ -651,6 +651,20 @@ em {
 	    line-height: 28px;
 	    padding-bottom: 1rem;
 	}
+
+	.dark-container {
+		width: 120%;
+	    background-color: #000103;
+	    margin: 0 auto;
+	    padding: 3rem 4rem;
+	    float: left;
+	    left: -9vw;
+	    position: relative;
+	  }
+
+	.dark-container .content-description {
+		color: white;
+	  }
 
 	.related-links {
 	    text-align: center;
