@@ -633,7 +633,11 @@ em {
 
 	.content__paragraph {
 	    bottom: 0%;
-	   	font-size: 13.5vw;
+	    font-size: 13vw;
+	}
+
+	.content__paragraph--large{
+		font-size: 10vw;
 	}
 
 	.content__figure {
