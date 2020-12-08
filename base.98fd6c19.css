@@ -548,11 +548,13 @@ em {
 	span.link{
 		grid-column: link;
 		text-align: right;
+	    font-size: 18px;
 	}
 
-	span.desc{
-		grid-column: desc;
-		text-align: left
+	span.desc {
+	    grid-column: desc;
+	    text-align: left;
+	    font-size: 19px;
 	}
 
 	.content-img{
@@ -638,6 +640,11 @@ em {
     	margin-top: 1rem;
 	}
 
+	.img-portrait {
+	    position: absolute;
+	    top: 100px;
+	}
+
 	.content__figure-caption {
 	    margin: 1rem 0 0 0;
 	    font-size: 1.35rem;
@@ -677,9 +684,9 @@ em {
 		text-align: right;
 	}
 
-	span.desc{
-		grid-column: desc;
-		text-align: left
+	span.desc {
+	    grid-column: desc;
+	    text-align: left;
 	}
 
 	.client-frame-3 {
