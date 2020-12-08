@@ -638,6 +638,11 @@ em {
     	margin-top: 1rem;
 	}
 
+	.img-portrait {
+	    position: absolute;
+	    top: 105px;
+	}
+
 	.content__figure-caption {
 	    margin: 1rem 0 0 0;
 	    font-size: 1.35rem;
