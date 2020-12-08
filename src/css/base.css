@@ -548,11 +548,13 @@ em {
 	span.link{
 		grid-column: link;
 		text-align: right;
+	    font-size: 18px;
 	}
 
-	span.desc{
-		grid-column: desc;
-		text-align: left
+	span.desc {
+	    grid-column: desc;
+	    text-align: left;
+	    font-size: 19px;
 	}
 
 	.content-img{
@@ -640,7 +642,7 @@ em {
 
 	.img-portrait {
 	    position: absolute;
-	    top: 105px;
+	    top: 100px;
 	}
 
 	.content__figure-caption {
@@ -682,9 +684,9 @@ em {
 		text-align: right;
 	}
 
-	span.desc{
-		grid-column: desc;
-		text-align: left
+	span.desc {
+	    grid-column: desc;
+	    text-align: left;
 	}
 
 	.client-frame-3 {
