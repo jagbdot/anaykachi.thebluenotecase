@@ -633,7 +633,7 @@ em {
 
 	.content__paragraph {
 	    bottom: 0%;
-	    font-size: 9.1vw;
+	   	font-size: 13.5vw;
 	}
 
 	.content__figure {
@@ -656,9 +656,9 @@ em {
 		width: 120%;
 	    background-color: #000103;
 	    margin: 0 auto;
-	    padding: 3rem 4rem;
+	    padding: 3rem 2.5rem;
 	    float: left;
-	    left: -9vw;
+	    left: -9.5vw;
 	    position: relative;
 	  }
 
