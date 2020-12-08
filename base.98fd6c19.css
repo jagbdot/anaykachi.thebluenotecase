@@ -684,7 +684,7 @@ em {
 
 	.client-frame-3 {
 	    margin: 0 auto;
-	    margin-top: 0.5rem;
+	    margin-top: 1rem;
 	    width: 100%;
 	    column-count: 3;
 	    -moz-columns: 3;
@@ -696,7 +696,7 @@ em {
 	    border-radius: 100%;
 	    width: 20vw;
 	    height: 20vw;
-	    overflow: hidden;
+	    overflow: none;
 	    margin: 0 auto;
 	}
 
