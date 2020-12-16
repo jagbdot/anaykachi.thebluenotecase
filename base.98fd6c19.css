@@ -29,7 +29,7 @@
 .img-portrait {
     width: 300px;
     position: absolute;
-    top: 125px;
+    top: 140px;
     right: 0%;
 }
 
@@ -224,7 +224,7 @@ em {
 
 .content__paragraph {
 	font-family: freight-big-pro, serif;
-	font-size: 7vw;
+	font-size: 8vw;
 	font-weight: 300;
 	letter-spacing: -0.2vw;
 	bottom: 0%;
@@ -455,6 +455,10 @@ em {
 		padding: 5.5rem 0;
 	  }
 
+	.dark-container .content-title {
+		color: white;
+	  }
+
 	 .related-links {
 		column-count: 1;
 		width: 50%;
@@ -502,9 +506,9 @@ em {
 		text-align: center;
 	    text-transform: uppercase;
 	    padding-top: 6.5rem;
-	    max-width: 55%;
-	    line-height: 52px;
-	    font-size: 40px;
+	    max-width: 61%;
+	    line-height: 54px;
+	    font-size: 44px;
 	    margin: 0 auto;
 	    letter-spacing: 1px;
 	    font-family: 'freight-big-pro';
@@ -545,10 +549,11 @@ em {
 		line-height: 24px;
 	}
 
-	span.link{
-		grid-column: link;
-		text-align: right;
-	    font-size: 18px;
+	span.link {
+	    grid-column: link / link;
+	    text-align: right;
+	    font-size: 13px;
+	    text-transform: uppercase;
 	}
 
 	span.desc {
