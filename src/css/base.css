@@ -690,6 +690,7 @@ em {
 
 	.content-description {
 	    margin-bottom: 25px;
+	    padding: 0 1em;
 	}
 
 	.double-link {
